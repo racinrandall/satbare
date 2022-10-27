@@ -1,4 +1,4 @@
 ---
 collections:
-  - redhat.satellite
+#  - redhat.satellite
   - hpe.ilo
