@@ -1,0 +1,30 @@
+---
+- name: Tell Sat to build new host
+  redhat.satellite.host:
+    username: "{{ sat_user }}"
+    password: "{{ sat_pass }}"
+    server_url: "{{ sat_url }}"
+    name: "{{ host_name }}"
+    hostgroup: "{{ host_group }}"
+    provision_method: bootdisk
+    organization: "{{ org }}"
+    location: "{{ loc }}"
+    lifecycle_environment: "{{ lifecycle }}"
+    subnet: "{{ ipv4_subnet }}"
+    state: present
+    validate_certs: false
+    activation_keys: "{{ acc_key }}"
+    build: true
+    interfaces_attributes:
+      domain: "{{ domain_name }}"
+      ip: "{{ host_ip }}"
+      mac: "{{ host_mac }}"
+      primary: true
+      provision: true
+      subnet: "{{ ipv4_subnet }}"
+      type: interface
+
+#- name: Get boot iso from Satellite
+
+#- name: attach boot iso to blade
+

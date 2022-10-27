@@ -1,0 +1,14 @@
+---
+host_name: sat-test.randalllabs.com
+host_ip: 192.168.80.99
+host_ilo_ip: 192.168.10.16
+host_ilo_mac: "70:10:6F:AF:7B:80"
+host_mac: "D0:BF:9C:B6:CC:D0"
+host_group: RHEL8
+lifecycle: Development
+content_view: RH
+ipv4_subnet: Linux
+acc_key: "rhel8"
+org: Randall
+loc: Basement
+domain_name: randalllabs.com

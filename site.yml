@@ -1,0 +1,5 @@
+---
+- name: Deploy new Bare Metal Machine from Satellite
+  hosts: all
+  roles:
+    - sat-deploy-baremetal
