@@ -1,4 +1,5 @@
 ---
 collections:
-  - hpe.ilo
-  - redhat.satellite
+  - name: hpe.ilo
+  - name: redhat.satellite
+    version: 3.6.0
