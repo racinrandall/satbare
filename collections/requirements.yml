@@ -1,4 +1,4 @@
 ---
 collections:
   - hpe.ilo
-  - redhat.satellite
+  - cisco.nxos
